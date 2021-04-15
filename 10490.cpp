@@ -1,3 +1,7 @@
+/* solving method 
+perfect numbers are limited so google for perfect numbers 
+link : https://en.wikipedia.org/wiki/List_of_perfect_numbers
+*/
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
