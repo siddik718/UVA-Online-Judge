@@ -1,3 +1,4 @@
+// just like MR. ajad and His son problem. (uva:10490)
 #include<bits/stdc++.h>
 using namespace std;
 bool Perfect(int p){
