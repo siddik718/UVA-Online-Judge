@@ -44,7 +44,7 @@ int main()
 
     for(int i = 0;i<n;i+=2)
     {
-        pro *= ceil(pow(a[i],a[i+1]));
+        pro *= ceil(pow(a[i],a[i+1])); // pow function could give us 2.999 , so using ceil will help .
     }
     pro--;
     factor(pro);
