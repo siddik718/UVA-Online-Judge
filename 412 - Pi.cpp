@@ -20,7 +20,8 @@ int main()
         {
             scanf("%d",&n[i]);
         }
-        int s = t*(t-1)/2,cnt = 0;
+        int s = t*(t-1)/2; // number of combinations how to choose two elements out of t.
+        int cnt = 0;
 
         for(int i = 0;i<t;i++)
         {
