@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
-
 using namespace std;
-
 ll phi(ll n)
 {
     if(n == 1)
@@ -33,7 +31,17 @@ ll phi(ll n)
     }
     return ans;
 }
-
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    ll n;
+    while(cin >> n,n)
+    {
+        cout << phi(n)<< "\n";
+    }
+    return 0;
+}
 
 
 // another way.
@@ -98,21 +106,3 @@ int main()
     }
     return 0;
 }
-
-
-
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    ll n;
-
-    while(cin >> n,n)
-    {
-        cout << phi(n)<< "\n";
-    }
-
-    return 0;
-}
-
