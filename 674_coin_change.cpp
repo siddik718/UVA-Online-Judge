@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int N;
     vector <int> coins{50,25,10,5,1};
     vector < vector <int> > dp(7,vector <int> (7500+5));
     dp[0][0] = 1;
@@ -14,6 +13,7 @@ int main(){
             }
         }
     }
+    int N;
     while(cin >> N){
         cout << dp[5][N] << endl;
     }
